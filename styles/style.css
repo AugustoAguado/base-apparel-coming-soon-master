@@ -78,6 +78,7 @@ body {
   bottom: 9.5rem;
   left: 77.8%;
   width: 14%;
+  max-width: 7.2rem;
   height: 5.7rem;
   border-radius: 2.5rem;
   border: none;
@@ -102,7 +103,7 @@ body {
   }
   body {
     height: 100%;
-    background-image: url(../images/bg-pattern-desktop.svg);
+    background-image: url(./images/bg-pattern-desktop.svg);
     background-size: 100rem;
   }
   .main {
@@ -142,11 +143,17 @@ body {
     margin-right: 5rem;
   }
   .main__button {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 5.35rem;
     left: 45rem;
     width: 9rem;
     height: 5.4rem;
+  }
+  .main__button__img {
+    width: 2rem;
+    height: 2.5rem;
   }
   .main__button:hover {
     background: linear-gradient(hsl(0, 61%, 90%), hsl(0, 95%, 86%));
