@@ -81,7 +81,7 @@ body {
   height: 5.7rem;
   border-radius: 2.5rem;
   border: none;
-  background-color: hsl(0, 74%, 74%);
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   font-size: 4rem;
   font-weight: 500;
   color: white;
@@ -102,6 +102,8 @@ body {
   }
   body {
     height: 100%;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: 100rem;
   }
   .main {
     height: 100%;
@@ -145,6 +147,9 @@ body {
     left: 45rem;
     width: 9rem;
     height: 5.4rem;
+  }
+  .main__button:hover {
+    background: linear-gradient(hsl(0, 61%, 90%), hsl(0, 95%, 86%));
   }
   .hero-mobile {
     display: none;
