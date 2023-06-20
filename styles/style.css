@@ -87,6 +87,41 @@ body {
   font-weight: 500;
   color: white;
 }
+.main__success {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  right: center;
+  bottom: 20%;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  width: 70%;
+  min-width: 29rem;
+  height: 50%;
+  border: 0.5rem solid black;
+  font-size: 1.8rem;
+  margin: 0 2rem 0 2rem;
+}
+.main__success__button {
+  border: none;
+  background: none;
+  position: absolute;
+  bottom: 90%;
+  left: 92%;
+  cursor: pointer;
+  padding: 1rem 1rem 0 0;
+}
+.main__success__img {
+  width: 2rem;
+}
+.main__success__title {
+  margin: 0;
+  font-size: 3rem;
+}
+.main__success__mail {
+  margin: 2rem 0 5rem 0;
+}
 
 @media screen and (min-width: 960px) {
   .logo {
@@ -103,7 +138,7 @@ body {
   }
   body {
     height: 100%;
-    background-image: url(./images/bg-pattern-desktop.svg);
+    background-image: url(../images/bg-pattern-desktop.svg);
     background-size: 100rem;
   }
   .main {
@@ -147,7 +182,7 @@ body {
     justify-content: center;
     align-items: center;
     bottom: 5.35rem;
-    left: 45rem;
+    left: 46rem;
     width: 9rem;
     height: 5.4rem;
   }
@@ -157,6 +192,10 @@ body {
   }
   .main__button:hover {
     background: linear-gradient(hsl(0, 61%, 90%), hsl(0, 95%, 86%));
+  }
+  .main__success {
+    right: 50%;
+    width: 30%;
   }
   .hero-mobile {
     display: none;
